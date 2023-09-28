@@ -69,4 +69,14 @@ Operator	Description
 // console.log(` x==y || x==z ${ (x==y) || (x==z)}`);
 // console.log(` x= ${x}  !x=${!x}`);
 
+// let a1=123;
+// console.log(typeof a1);
 
+let n=5,m=7;
+// console.log(n<<1);
+// console.log(n>>1);
+// console.log(m & n);
+// console.log(m | n);
+// console.log(n >> 1);
+// console.log(n << 1);
+// console.log(m ^ n);
