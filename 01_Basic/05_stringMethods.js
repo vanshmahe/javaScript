@@ -37,6 +37,21 @@ let part= text1.slice(1,4);       // 4 is excluded
 // console.log(value + "     "+value.trimEnd());
 // console.log(value.length + "    "+ value.trimEnd().length);
 
-let text="150";
-//console.log(text.padStart(5,"x"));
-console.log(text.padEnd(1,"x"));
+// let text="150";
+// //console.log(text.padStart(5,"x"));
+// console.log(text.padEnd(1,"x"));
+
+//let text="hello world";
+//console.log(text.charAt(4));
+//console.log(text.charCodeAt(1));
+
+// String to Array
+
+let text = "a,b,c,d,e,f";
+const myArray = text.split(",");
+console.log(myArray);
+/*
+text.split(",")    // Split on commas
+text.split(" ")    // Split on spaces
+text.split("|")    // Split on pipe
+*/
