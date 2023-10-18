@@ -23,5 +23,5 @@ const cars=[
 
 
 //let result=Array.isArray(cars);
-let result= cars instanceof Array;
+let result= cars.sort();
 document.getElementById("demo").innerHTML=result;
