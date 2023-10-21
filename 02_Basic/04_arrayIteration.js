@@ -79,3 +79,50 @@ The some() method checks if some array values pass a test.
 // function myFunction(value, index, array) {
 //   return value > 18;
 // }
+
+//find()
+
+// const numbers = [4, 9, 16, 25, 29];
+// let allOver18=numbers.find(myFunction);
+
+// console.log(allOver18);
+// function myFunction(value, index, array) {
+//        return value > 18;
+//      }
+
+// find index
+
+// const numbers = [4, 9, 16, 25, 29];
+// let allOver18=numbers.findIndex(myFunction);
+
+// console.log(allOver18);
+// function myFunction(value, index, array) {
+//        return value > 18;
+//      }
+
+// Array.from()
+
+// let myObj={
+//     name:"Vansh",
+//     class : "js",
+//     year : 2023
+// };
+// let myStr="ABCDEFGH";
+// let myArray=Array.from(myStr);
+// //let myObjArray=Array.from(Object.values(myObj));
+// let myObjArray2=Array.from(Object.keys(myObj))
+// console.log(myObjArray2);
+
+// includes()
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// console.log(fruits.includes("Orange"));
+
+//Array Spread (...)
+
+// const q1 = ["Jan", "Feb", "Mar"];
+// const q2 = ["Apr", "May", "Jun"];
+// const q3 = ["Jul", "Aug", "Sep"];
+// const q4 = ["Oct", "Nov", "Dec"];
+
+// const year=[...q1,...q2,...q3,...q4];
+// console.log(year);
